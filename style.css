@@ -1,0 +1,61 @@
+/*colors for page ratios
+- text+background 9.36:1
+- text+white 12.11:1
+- header color+text 6.18:1
+- footer text+ background 1.51:1 (is it ok for something like this to have that ratio? I wanted to include the header color somewhere else on the page.)*/
+body {margin: 0; /*put space*/
+    background-color: #F4DCE7; /*put color*/
+    color:#173D27; /*add color*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 16px; /*specified font family and size*/
+    line-height: 1.6;} /*gives the line a specific height*/
+h1,h2,h3 {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; line-height: 1.2; text-align: center;} /*applied a different font to headings*/
+h1 {font-size: 3rem; /*font size*/
+    margin: 0; /*spacing*/
+    letter-spacing: 2px;} /*increases space between letters*/
+h2 {font-size: 2rem; /*font size*/
+    margin: 0; /*spacing*/
+    letter-spacing: 2px; /*spacing between letters*/
+    border-bottom: 3px solid #2a6443; /*details for a border*/
+    padding-bottom:6px; /*puts space inside the element*/
+    margin-top: 20px;} /*puts space outside the element*/
+p {margin:0 0 12px;} /*adds space outside border*/
+/* Use rem for font sizes, px for shadows/borders/thick lines, and em for buttons/badges*/
+strong {font-weight: bold; /*bolds the word*/
+    color: #2a6443;} /*changed color for this specific word*/
+.intro {color: #173D27; /*added color*/
+    font-size: 20px;}
+.tagline {color:#173D27; /*added color*/
+    font-size: 20px; /*gave it a font size*/
+    font-style: italic;} /*italicized*/
+p {margin-top: 2%; margin-right: 2%;  margin-bottom: 2%; margin-left: 2%;} /* adding in more specific margins*/
+a:hover {text-decoration: none;} /*making sure there's no lines*/
+.site-header {background-color:#E6A7C7; /*adds color to header*/
+    color: #173D27; /*adds color*/
+    text-align: center; /*centers*/
+    padding-bottom: 2px; padding-top: 2px; padding-left: 2px; padding-right: 2px; /*more specified spacing*/
+    text-transform: uppercase;} /*added uppercase*/
+.site-header {text-shadow: 2px 2px 4px rgba(0,0,0,.4);}/*added a shadow behind the text.*/
+.container {max-width: 760px; margin: 0 auto; padding: 0px 20px 40px;}/*again, added in proper spacing and width for the container*/
+/*card section*/
+.card {background: white; /*added a background color*/
+    border: #64DB97 1px dotted; /*added in border color and size*/
+    border-left: #64DB97 4px solid; /*added a special side for detail*/
+    border-radius:12px; /*rounded corners*/
+    padding: 12px; /*adds space inside border*/
+     margin: 12px; /*adds space outside border*/
+     box-shadow: 2px 2px 4px rgba(0,0,0,.4;)} /*added a shadow to the box*/
+.card h3 {background: white; } /*added background color*/
+/*Button*/
+.button {display: inline-block; /*lets link take up more space*/
+    text-decoration: none; /*removed underline from the button*/
+    background-color:#F4DCE7; /*added background color*/
+    padding: 10px; margin: 10px; /*added space and also made the button bigger*/
+    border-color:#2a6443 5px; /*added color and size to the border*/
+    border-radius: 10px;} /*rounded the border*/
+/*list(ul{} and li{})- I didn't add padding-left to the list because I liked where the bullets were already and I also didn't add the list-style-type because I already had it in html*/
+.site-footer {text-align: center; /*aligned the text*/
+    font-size: .9rem; /*specified font size*/
+    color: #DA6BA9; /*added color*/
+    border-top:#64DB97 5px solid; /*added a line to separate the footer from the rest of the page*/
+    text-shadow: 2px 2px 4px rgba(0,0,0,.4);} /*added shadow to text to help with contrast*/
